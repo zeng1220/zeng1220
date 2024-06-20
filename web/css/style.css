@@ -1,0 +1,339 @@
+/* 设置body的样式 */
+body {
+	background: #ffffff; /* 背景颜色设为白色 */
+	font-family: 'Open Sans', sans-serif; /* 使用'Open Sans'字体，如果不可用则使用sans-serif字体 */
+	font-size: 100%; /* 字体大小设为100% */
+}
+
+.wrap {
+	margin: 0 auto; /* 上下边距设为0，左右自动居中 */
+	width: 80%; /* 宽度设为80% */
+}
+
+.header_bg {
+	background: #c0a1a1; /* 背景颜色设为#c0a1a1 */
+}
+
+.header {
+	padding: 2% 4%; /* 上下内边距设为2%，左右内边距设为4% */
+}
+
+.logo {
+	float: left; /* 左浮动 */
+}
+
+/* start header_btm */
+
+.header_btm {
+	background: #ffffff; /* 背景颜色设为白色 */
+	border-bottom: 5px solid #e6e6e6; /* 底部边框设为5px，颜色为#e6e6e6 */
+}
+
+.header_sub {
+	padding: 0 4%; /* 左右内边距设为4%，上下内边距为0 */
+}
+
+/* start menu */
+
+.h_menu {
+	float: left; /* 左浮动 */
+	margin-bottom: 4px; /* 下边距设为4px */
+}
+
+.h_menu ul li a {
+	display: block; /* 显示为块级元素 */
+	padding: 30px 15px; /* 上下内边距设为30px，左右内边距设为15px */
+	text-transform: uppercase; /* 文本转换为大写 */
+	font-size: 0.925em; /* 字体大小 */
+	color: #555555; 
+	font-weight: 600; /* 字体粗细*/
+}
+
+.slider_bg {
+	background: url('../images/slider_bg.jpg');
+	background-size: 100%; /* 背景图片大小设为100% */
+	background-size: cover; /* 背景图片覆盖整个区域 */
+}
+
+/* start main */
+
+.main {
+    padding: 6% 4%; /* 上下内边距设为6%，左右内边距设为4% */
+}
+
+.main_text {
+    text-align: center; /* 文本居中对齐 */
+}
+
+.main_text h2 {
+    font-size: 2em; /* 字体大小设为2em */
+    color: #777777; /* 字体颜色设为#777777 */
+    margin-bottom: 2%; /* 下边距设为2% */
+}
+
+.grids_of_3 {
+    text-align: center; /* 文本居中对齐 */
+    margin: 6% 0 4%; /* 上边距设为6%，下边距设为4%，左右边距为0 */
+}
+
+.grid1_of_3:first-child {
+    margin-left: 0; /* 左边距设为0 */
+}
+
+.grid1_of_3 {
+    float: left; /* 左浮动 */
+    width: 30.3333%; /* 宽度设为30.3333% */
+    margin-left: 3.3333%; /* 左边距设为3.3333% */
+}
+
+.grid1_of_3 h3 {
+    margin: 2% 0; /* 上下边距设为2%，左右边距为0 */
+}
+
+.grid1_of_3 h3 a {
+    font-size: 1.2em; /* 字体大小设为1.2em */
+    text-transform: capitalize; /* 文本首字母大写 */
+    color: #555555; /* 字体颜色设为#555555 */
+    text-shadow: 0 1px 0 #ffffff; /* 文本阴影效果，向下偏移1px，颜色为白色 */
+    font-weight: 600; /* 字体粗细设为600 */
+}
+
+.grid1_of_3 h3 a span {
+    color: #777777; /* 字体颜色设为#777777 */
+    font-weight: normal; /* 字体粗细设为正常 */
+}
+
+.grid1_of_3 p {
+    font-size: 0.8125em; /* 字体大小设为0.8125em */
+    color: #555555; /* 字体颜色设为#555555 */
+    line-height: 1.8em; /* 行高设为1.8em */
+    width: 80%; /* 宽度设为80% */
+    margin: 0 auto; /* 上下边距设为0，左右自动居中 */
+}
+
+/* start about */
+
+/* 设置顶部背景图片和大小 */
+.top_bg{
+	background:  url('../images/slider_bg1.jpg'); /* 背景图片路径 */
+	background-size: 100%; /* 背景图片大小设为100% */
+}
+
+/* 设置顶部分区的内边距 */
+.top{
+	padding: 4% 4%; /* 上下左右均设置4%的内边距 */
+}
+
+/* 设置顶部分区中标题的样式 */
+.top h2{
+	font-size: 2em; /* 字体大小设为2em */
+	color: #a3bf75; /* 字体颜色设为#a3bf75 */
+}
+
+.wrap {
+    font-family: Arial, sans-serif; /* 使用Arial或sans-serif字体 */
+}
+.title {
+    color: rgb(118, 118, 166); /* 标题颜色 */
+}
+
+.other {
+    color: rgb(186, 219, 186); /* 其他文字颜色 */
+}
+
+/* 设置关于部分显示为块级元素 */
+.about{
+	display: block; /* 显示为块级元素 */
+}
+/* 设置内容网格的浮动和宽度 */
+.cont-grid {
+	float: left; /* 左浮动 */
+	width: 60.3333%; /* 宽度设为60.3333% */
+}
+
+/* 设置内容网格图片的左边距、宽度和浮动 */
+.cont-grid-img{
+	margin-left: 3.3333%; /* 左边距设为3.3333% */
+	width: 36.33333%; /* 宽度设为36.33333% */
+	float:left; /* 左浮动 */
+}
+
+/* start services */
+.span_of_3 {
+    margin: 0; /* 清除外边距 */
+    padding: 0; /* 清除内边距 */
+    box-sizing: border-box; /* 包含内边距和边框在元素的总宽度和高度内 */
+    font-family: Arial, sans-serif; /* 设置字体为 Arial，如果不可用则使用 sans-serif */
+    background-color: #f4f4f4; /* 设置背景颜色为浅灰色 */
+    color: #333; /* 设置文本颜色为深灰色 */
+    line-height: 1.6; /* 设置行高 */
+    max-width: 1200px; /* 元素的最大宽度为 1200 像素 */
+    margin: 20px auto; /* 上下外边距为20像素，左右自动居中 */
+    padding: 20px; /* 内边距为20像素 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 盒阴影效果 */
+    border-radius: 8px; /* 边框圆角半径为8像素 */
+    display: flex; /* 使用 flexbox 布局 */
+    flex-wrap: wrap; /* 允许子元素换行 */
+    justify-content: space-between; /* 子元素之间均匀分布 */
+    margin-bottom: 20px; /* 下外边距为20像素 */
+}
+
+.span1_of_3 {
+    flex: 1; /* 子元素将均分剩余空间 */
+    margin: 10px; /* 外边距为10像素 */
+    max-width: calc(33.333% - 20px); /* 最大宽度为父容器的三分之一减去左右的外边距 */
+    background-color: #f9f9f9; /* 背景颜色为更浅的灰色 */
+    border-radius: 8px; /* 边框圆角半径为8像素 */
+    overflow: hidden; /* 超出部分隐藏 */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* 盒阴影效果 */
+}
+
+.span1_of_3 img {
+    width: 100%; /* 宽度为容器的100% */
+    height: auto; /* 高度自适应 */
+    display: block; /* 作为块级元素显示 */
+}
+
+.span1_of_3_text {
+    padding: 20px; /* 内边距为20像素 */
+}
+
+.span1_of_3_text h3 {
+    margin-bottom: 10px; /* 下外边距为10像素 */
+    color: #0073e6; /* 文字颜色为蓝色 */
+}
+
+.span1_of_3_text p {
+    font-size: 14px; /* 字体大小为14像素 */
+    color: #666; /* 文字颜色为灰色 */
+}
+
+/* start blog */
+.blog {
+    max-width: 800px; /* 最大宽度为800像素 */
+    margin: 0 auto; /* 上下外边距为0，左右自动居中 */
+    padding: 20px; /* 内边距为20像素 */
+    background-color: #f9f9f9; /* 背景颜色为浅灰色 */
+    border-radius: 8px; /* 边框圆角半径为8像素 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 盒阴影效果 */
+    margin-bottom: 40px; /* 下外边距为40像素 */
+}
+
+.blog_list {
+    margin-bottom: 20px; /* 下外边距为20像素 */
+}
+
+.blog_list h2 {
+    font-size: 28px; /* 字体大小为28像素 */
+    color: #333; /* 文字颜色为深灰色 */
+    margin-bottom: 10px; /* 下外边距为10像素 */
+}
+
+.blog_list h5 {
+    font-size: 22px; /* 字体大小为22像素 */
+    color: #555; /* 文字颜色为中灰色 */
+    margin-bottom: 15px; /* 下外边距为15像素 */
+}
+
+.blog_para {
+    line-height: 1.6; /* 行高为1.6倍字体大小 */
+    color: #666; /* 文字颜色为浅灰色 */
+}
+
+.para {
+    margin-bottom: 20px; /* 下外边距为20像素 */
+}
+
+.para img {
+    max-width: 100%; /* 最大宽度为容器的100% */
+    height: auto; /* 高度自适应 */
+    display: block; /* 作为块级元素显示 */
+    margin: 0 auto 20px; /* 上外边距为0，左右居中，下外边距为20像素 */
+}
+
+
+/* start contact */
+.contact {
+	display: block;/* 设置.contact类为块级元素，使其在页面中占据整个一行 */
+}
+
+.contact h2 {
+	font-size: 1.5em;/* 设置字体大小为1.5倍的em单位 */
+	text-transform: uppercase;/* 将文本转换为大写 */
+	color: #777777;/* 设置文本颜色为浅灰色 */
+}
+
+.col {
+	display: block;/* 设置.col类为块级元素，使其在页面中占据整个一行 */
+}
+
+.contact-form {
+	position: relative;        /* 使内部元素可以使用绝对定位 */
+}
+
+.contact-form div {
+	padding: 5px 0;            /* 上下内边距为5像素，左右内边距为0 */
+}
+
+.contact-form span label {
+	color: #777777;            /* 设置标签文字颜色为浅灰色 */
+	display: block;            /* 将标签显示为块级元素 */
+	font-size: 0.8725em;       /* 设置字体大小为0.8725em */
+	padding-bottom: 5px;       /* 设置底部内边距为5像素 */
+}
+
+.contact-form input[type="text"], .contact-form textarea {
+	font-family: 'Open Sans', sans-serif; /* 设置字体 */
+	background: #FFFFFF;       /* 设置背景颜色为白色 */
+	border: 1px solid #E7E7E7; /* 设置边框样式 */
+	padding: 8px;              /* 设置内边距为8像素 */
+	display: block;            /* 显示为块级元素 */
+	width: 98%;                /* 宽度设置为父元素的98% */
+}
+
+.contact-form textarea {
+	resize: none;              /* 禁止用户调整文本域大小 */
+	height: 120px;             /* 设置高度为120像素 */
+}
+
+.contact-form input[type="submit"] {
+	margin-top: 10px;          /* 设置顶部外边距为10像素 */
+	font-family: 'Open Sans', sans-serif; /* 设置字体 */
+	color: #00BAC6;            /* 设置文字颜色为蓝绿色 */
+	background: #ffffff;       /* 设置背景颜色为白色 */
+	display: inline-block;     /* 显示为内联块元素 */
+	padding: 12px 38px;        /* 设置内边距 */
+	font-size: 0.875em;        /* 设置字体大小 */
+}
+
+/* 页脚 */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;  /* 确保内容从顶部对齐 */
+    padding: 20px 0;  /* 增加上下内边距 */
+}
+
+/* 页脚部分 */
+.footer_section {
+    flex: 1;  /* 让每个部分的宽度相等 */
+    min-width: 200px;  /* 设置最小宽度防止太窄 */
+    padding: 20px;
+}
+
+/* 页脚标题 */
+.footer_section h3 {
+    margin-bottom: 10px;
+}
+
+/* 未排序列表 */
+.footer_section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* 列表项 */
+.footer_section ul li {
+    margin-bottom: 5px;
+}
